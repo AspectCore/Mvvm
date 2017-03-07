@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
     <Compile Include="DependencyInjection\DelegateRegistryEntry.cs" />
     <Compile Include="DependencyInjection\InstanceRegistryEntry.cs" />
     <Compile Include="DependencyInjection\IServiceRegister.cs" />
