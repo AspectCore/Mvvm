@@ -9,8 +9,8 @@ namespace AspectCore.Extensions.Mvvm
 {
     public interface IApplicationStartup
     {
-        void ConfigureServices(IServiceRegister register);
+        IServiceResolver ConfigureServices(IServiceRegister register);
 
-        void ConfigureApplication(IApplicationBuilder app);
+        IApplication ConfigureApplication(IApplicationBuilder app);
     }
 }

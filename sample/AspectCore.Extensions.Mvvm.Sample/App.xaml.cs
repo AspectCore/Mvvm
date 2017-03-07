@@ -13,5 +13,11 @@ namespace AspectCore.Extensions.Mvvm.Sample
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            Bootstrapper bootstrapper = new Bootstrapper();
+            //bootstrapper.Startup<>();
+            base.OnStartup(e);
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace AspectCore.Extensions.Mvvm.DependencyInjection
 {
     public interface IServiceRegister
     {
+
     }
 }

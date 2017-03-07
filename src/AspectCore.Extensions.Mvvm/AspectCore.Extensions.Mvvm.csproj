@@ -67,8 +67,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyInjection\DelegateRegistryEntry.cs" />
+    <Compile Include="DependencyInjection\InstanceRegistryEntry.cs" />
     <Compile Include="DependencyInjection\IServiceRegister.cs" />
     <Compile Include="DependencyInjection\IServiceResolver.cs" />
+    <Compile Include="DependencyInjection\LifeCycle.cs" />
+    <Compile Include="DependencyInjection\RegistryEntry.cs" />
+    <Compile Include="DependencyInjection\TypedRegistryEntry.cs" />
+    <Compile Include="IApplication.cs" />
     <Compile Include="IApplicationBuilder.cs" />
     <Compile Include="IApplicationStartup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
