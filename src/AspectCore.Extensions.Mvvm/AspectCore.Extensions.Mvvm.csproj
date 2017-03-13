@@ -74,6 +74,7 @@
     <Compile Include="DependencyInjection\IServiceResolver.cs" />
     <Compile Include="DependencyInjection\LifeCycle.cs" />
     <Compile Include="DependencyInjection\RegistryEntry.cs" />
+    <Compile Include="DependencyInjection\ServiceRegister.cs" />
     <Compile Include="DependencyInjection\TypedRegistryEntry.cs" />
     <Compile Include="IApplication.cs" />
     <Compile Include="IApplicationBuilder.cs" />

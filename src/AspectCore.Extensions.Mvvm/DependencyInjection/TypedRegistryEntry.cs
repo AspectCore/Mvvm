@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AspectCore.Extensions.Mvvm.DependencyInjection
 {
@@ -13,6 +9,7 @@ namespace AspectCore.Extensions.Mvvm.DependencyInjection
         public TypedRegistryEntry(Type serviceType, Type implementationType, LifeCycle lifeCycle) : base(serviceType, lifeCycle)
         {
             if (implementationType == null) { throw new ArgumentNullException(nameof(implementationType)); }
+
             ImplementationType = implementationType;
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AspectCore.Extensions.Mvvm.DependencyInjection
 {
-    public interface IServiceResolver
+    public interface IServiceResolver : IServiceProvider
     {
     }
 }
