@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using AspectCore.Extensions.Mvvm.DependencyInjection;
 
 namespace AspectCore.Extensions.Mvvm.Sample
 {
